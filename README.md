@@ -78,9 +78,9 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
 ### Steps to Setup
 
-1. Clone the repository
-2. Install dependencies
-3. Run the server from the index.js file 
+1. Clone the repository.
+2. Install dependencies.
+3. Run the server from the index.js file.
 3. The server will start listening on port 4000.
 
 
