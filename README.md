@@ -26,6 +26,18 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 - Implementing meaningful error responses and status codes for various scenarios (e.g., unauthorized access, missing data, server errors).
 
 
+## Dependencies
+
+  - **body-parser** :For parsing request body.
+
+  - **express** : Framework for Node.js
+
+  - **jsonwebtoken** : For user authentication.
+
+  - **multer** : For uploading multipart form data.
+  - **swagger-ui-express** : API Documentation.
+
+
 ## API Overview
 
 - **User Authentication**
