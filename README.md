@@ -1,4 +1,4 @@
-# Postaway Social Media APIs 
+# Postaway Social Media APIs 1.0.0
 
 Welcome to the engine behind a vibrant social media application! My REST API forms the core of an interactive platform, providing essential functionalities to enhance your social experience. Designed with simplicity and security in mind, this API enables users to seamlessly create, share, and interact with posts and comments. Through robust authentication mechanisms and precise authorization controls, my API ensures that user data remains protected while allowing for personalized engagement. Dive into a world where users can manage their content, connect through comments, and express themselves with likes – all within a safe and controlled digital space.
 
