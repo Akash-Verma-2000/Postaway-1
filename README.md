@@ -73,7 +73,7 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
     - **Get Likes for Specific Post**: Authenticated users can see the likes on any post.
 
-### Steps to Setup
+## Steps to Setup
 
 1. Clone the repository.
 2. Install dependencies.
