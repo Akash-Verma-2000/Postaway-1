@@ -25,7 +25,7 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
 ## Dependencies
 
-  - **body-parser** :For parsing request body.
+  - **body-parser** : For parsing request body.
 
   - **express** : Framework for Node.js
 
@@ -51,19 +51,19 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
     - **Delete Post**: Users who created the post can delete it.
     
-    - **Update Post**: Post creators have the ability to update their posts.
+    - **Update Post**: Post creators can update their posts.
 
     - **Create Post**: Authenticated users can create new posts.
 
-    - **Get Logged-in User Posts**: Users can retrieve their own posts after logging in.
+    - **Get Logged-in User Posts**: Users can retrieve their posts after logging in.
 
 - **Comments**:
 
     - **Get Comments for Specific Post**: Authenticated users can view comments related to a specific post.
 
-    - **Delete Comment**: Post owner and comment creator can delete comments.
+    - **Delete Comment**: The post owner and comment creator can delete comments.
 
-    - **Update Comment**: Post owner and comment creator can modify comments.
+    - **Update Comment**: The post owner and comment creator can modify comments.
 
     - **Post Comment**: Authenticated users can add comments to posts.
 
@@ -90,35 +90,35 @@ Welcome to the engine behind a vibrant social media application! My REST API for
     
     - **`comment/`**
 
-        - **`comment.controller.js`** All the cotrolling operations of the comments related APIs.
+        - **`comment.controller.js`** All the controlling operations of the comments-related APIs.
 
-        - **`comment.model.js`** All the data operations of the comments related APIs.
+        - **`comment.model.js`** All the data operations of the comments-related APIs.
 
-        - **`comment.route.js`** All the routes configurations of the comments related APIs.
+        - **`comment.route.js`** All the route configurations of the comments-related APIs.
 
     - **`like/`**
 
-        - **`like.controller.js`** All the cotrolling operations of the likes related APIs.
+        - **`like.controller.js`** All the controlling operations of the likes-related APIs.
 
-        - **`like.model.js`** All the data operations of the likes related APIs.
+        - **`like.model.js`** All the data operations of the likes-related APIs.
 
-        - **`like.route.js`** All the routes configurations of the like related APIs.  
+        - **`like.route.js`** All the route configurations of the like-related APIs.  
 
     - **`post/`**
 
-        - **`post.controller.js`** All the cotrolling operations of the post related APIs.
+        - **`post.controller.js`** All the cotrolling operations of the post-related APIs.
 
-        - **`post.controller.js`** All the data operations of the post related APIs.
+        - **`post.controller.js`** All the data operations of the post-related APIs.
 
-        - **`post.route.js`** All the routes configurations of the post related APIs.  
+        - **`post.route.js`** All the route configurations of the post-related APIs.  
     
     - **`user/`**
 
-        - **`user.controller.js`** All the cotrolling operations of the user related APIs.
+        - **`user.controller.js`** All the controlling operations of the user-related APIs.
 
-        - **`user.controller.js`** All the data operations of the user related APIs.
+        - **`user.controller.js`** All the data operations of the user-related APIs.
 
-        - **`user.route.js`** All the routes configurations of the user related APIs.  
+        - **`user.route.js`** All the route configurations of the user-related APIs.  
         
 
 - **`middleware/`**
@@ -134,7 +134,7 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
 - **`log.txt`** logger.middleware.js file is logging data in this file.
 
-- **`package-lock.json`** This file contains the information about the versions of all the dependencies.
+- **`package-lock.json`** This file contains information about the versions of all the dependencies.
 
 - **`index.js`**: Entry point of the application.
 
@@ -150,11 +150,11 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
  - ### User Route
 
-    -  User registration
+    -  User Registration
 
         `POST /api/user/signup` 
 
-    - User login
+    - User Login
 
         `POST /api/user/signin` 
 
@@ -165,7 +165,7 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
       `GET /api/posts/all`
 
-    - Get a specific post by post id
+    - Get a specific post-by-post id
 
       `GET /api/posts/:id`
 
