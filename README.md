@@ -108,7 +108,7 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
         - **`post.controller.js`** All the cotrolling operations of the post-related APIs.
 
-        - **`post.controller.js`** All the data operations of the post-related APIs.
+        - **`post.model.js`** All the data operations of the post-related APIs.
 
         - **`post.route.js`** All the route configurations of the post-related APIs.  
     
@@ -116,7 +116,7 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
         - **`user.controller.js`** All the controlling operations of the user-related APIs.
 
-        - **`user.controller.js`** All the data operations of the user-related APIs.
+        - **`user.model.js`** All the data operations of the user-related APIs.
 
         - **`user.route.js`** All the route configurations of the user-related APIs.  
         
