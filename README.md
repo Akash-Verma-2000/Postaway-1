@@ -216,7 +216,7 @@ Welcome to the engine behind a vibrant social media application! My REST API for
 
  - ### Documentation Route
 
-    - Get the compplete API Docs
+    - Get the complete API Docs
 
         `GET /api-docs`
 
